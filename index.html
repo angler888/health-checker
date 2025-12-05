@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>自己チェックリスト（4観点）</title>
+<style>
+  body { font-family: sans-serif; margin: 20px; }
+  .category { margin-top: 25px; font-size: 20px; font-weight: bold; }
+  .question { margin-bottom: 10px; }
+  #result { margin-top: 30px; font-size: 18px; font-weight: bold; white-space: pre-line; }
+</style>
+</head>
+<body>
+
+<h2>自己チェックリスト（進路・学習・生活・人間関係）</h2>
+<p>以下の質問に答えてください。</p>
+
+<form id="checkForm">
+
+<!-- 進路 -->
+<div class="category">【進路】</div>
+<div class="question">1. 将来の目標を少しでも意識していますか？
+  <label><input type="radio" name="c1_q1" value="yes">はい</label>
+  <label><input type="radio" name="c1_q1" value="no">いいえ</label>
+</div>
+<div class="question">2. 興味のある分野について調べていますか？
+  <label><input type="radio" name="c1_q2" value="yes">はい</label>
+  <label><input type="radio" name="c1_q2" value="no">いいえ</label>
+</div>
+<div class="question">3. 先生や家族に進路について相談していますか？
+  <label><input type="radio" name="c1_q3" value="yes">はい</label>
+  <label><input type="radio" name="c1_q3" value="no">いいえ</label>
+</div>
+<div class="question">4. 自分の得意なことを把握していますか？
+  <label><input type="radio" name="c1_q4" value="yes">はい</label>
+  <label><input type="radio" name="c1_q4" value="no">いいえ</label>
+</div>
+<div class="question">5. 将来のために今できることを行っていますか？
+  <label><input type="radio" name="c1_q5" value="yes">はい</label>
+  <label><input type="radio" name="c1_q5" value="no">いいえ</label>
+</div>
+
+<!-- 学習 -->
+<div class="category">【学習】</div>
+<div class="question">1. 計画的に学習時間を確保していますか？
+  <label><input type="radio" name="c2_q1" value="yes">はい</label>
+  <label><input type="radio" name="c2_q1" value="no">いいえ</label>
+</div>
+<div class="question">2. テスト前だけでなく普段から復習していますか？
+  <label><input type="radio" name="c2_q2" value="yes">はい</label>
+  <label><input type="radio" name="c2_q2" value="no">いいえ</label>
+</div>
+<div class="question">3. 分からないことをそのままにしていませんか？
+  <label><input type="radio" name="c2_q3" value="yes">はい</label>
+  <label><input type="radio" name="c2_q3" value="no">いいえ</label>
+</div>
+<div class="question">4. 学習に集中できる環境を整えていますか？
+  <label><input type="radio" name="c2_q4" value="yes">はい</label>
+  <label><input type="radio" name="c2_q4" value="no">いいえ</label>
+</div>
+<div class="question">5. 目標点を設定していますか？
+  <label><input type="radio" name="c2_q5" value="yes">はい</label>
+  <label><input type="radio" name="c2_q5" value="no">いいえ</label>
+</div>
+
+<!-- 生活 -->
+<div class="category">【生活】</div>
+<div class="question">1. 規則正しい生活を心がけていますか？
+  <label><input type="radio" name="c3_q1" value="yes">はい</label>
+  <label><input type="radio" name="c3_q1" value="no">いいえ</label>
+</div>
+<div class="question">2. 睡眠時間を十分に確保していますか？
+  <label><input type="radio" name="c3_q2" value="yes">はい</label>
+  <label><input type="radio" name="c3_q2" value="no">いいえ</label>
+</div>
+<div class="question">3. 食生活に気を付けていますか？
+  <label><input type="radio" name="c3_q3" value="yes">はい</label>
+  <label><input type="radio" name="c3_q3" value="no">いいえ</label>
+</div>
+<div class="question">4. スマホの使い過ぎに注意していますか？
+  <label><input type="radio" name="c3_q4" value="yes">はい</label>
+  <label><input type="radio" name="c3_q4" value="no">いいえ</label>
+</div>
+<div class="question">5. 体を動かす時間がありますか？
+  <label><input type="radio" name="c3_q5" value="yes">はい</label>
+  <label><input type="radio" name="c3_q5" value="no">いいえ</label>
+</div>
+
+<!-- 人間関係 -->
+<div class="category">【人間関係】</div>
+<div class="question">1. 周囲の人に感謝の気持ちを伝えていますか？
+  <label><input type="radio" name="c4_q1" value="yes">はい</label>
+  <label><input type="radio" name="c4_q1" value="no">いいえ</label>
+</div>
+<div class="question">2. 自分の意見を落ち着いて伝えられますか？
+  <label><input type="radio" name="c4_q2" value="yes">はい</label>
+  <label><input type="radio" name="c4_q2" value="no">いいえ</label>
+</div>
+<div class="question">3. 他者の気持ちを想像しようとしていますか？
+  <label><input type="radio" name="c4_q3" value="yes">はい</label>
+  <label><input type="radio" name="c4_q3" value="no">いいえ</label>
+</div>
+<div class="question">4. 困っている人に声をかけていますか？
+  <label><input type="radio" name="c4_q4" value="yes">はい</label>
+  <label><input type="radio" name="c4_q4" value="no">いいえ</label>
+</div>
+<div class="question">5. 仲間と良い関係を保てていますか？
+  <label><input type="radio" name="c4_q5" value="yes">はい</label>
+  <label><input type="radio" name="c4_q5" value="no">いいえ</label>
+</div>
+
+<button type="button" onclick="showResult()">結果を表示</button>
+
+</form>
+
+<div id="result"></div>
+
+<script>
+function countYes(category) {
+  let count = 0;
+  for (let i = 1; i <= 5; i++) {
+    const val = document.querySelector(`input[name="${category}_q${i}"]:checked`);
+    if (val && val.value === "yes") count++;
+  }
+  return count;
+}
+
+function message(count) {
+  if (count >= 4) return "とても良い状態です。この調子を維持しましょう。";
+  if (count >= 2) return "悪くありません。少し改善してみましょう。";
+  return "変化のチャンスかもしれません。無理のない範囲で一歩ずつ。";
+}
+
+function showResult() {
+  const c1 = countYes("c1"); // 進路
+  const c2 = countYes("c2"); // 学習
+  const c3 = countYes("c3"); // 生活
+  const c4 = countYes("c4"); // 人間関係
+
+  const resultText =
+`【進路】 はい: ${c1} → ${message(c1)}
+【学習】 はい: ${c2} → ${message(c2)}
+【生活】 はい: ${c3} → ${message(c3)}
+【人間関係】 はい: ${c4} → ${message(c4)}`;
+
+  document.getElementById("result").textContent = resultText;
+}
+</script>
+
+</body>
+</html>
